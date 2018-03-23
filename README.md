@@ -1,9 +1,12 @@
 
-*global package install*
-# npm install -g webpack webpack-dev-server
-# npm i -g webpack-cli && npm i -D webpack webpack-cli
+1. global package install
+ - $ npm install -g webpack webpack-dev-server
+ - $ npm i -g webpack-cli && npm i -D webpack webpack-cli
 
-# npm install
+2. $ npm install
 
-*start*
-webpack => npm start
+3. $ webpack
+
+4. $ npm start
+
+5.
