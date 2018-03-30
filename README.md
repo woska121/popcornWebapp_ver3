@@ -8,5 +8,3 @@
 3. $ webpack
 
 4. $ npm start
-
-5.
