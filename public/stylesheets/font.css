@@ -1,0 +1,33 @@
+/* english font */
+@font-face{ font-family: Catamaran; src: url(/font/Catamaran/Catamaran-Thin.ttf); font-weight: 100; }
+@font-face{ font-family: Catamaran; src: url(/font/Catamaran/Catamaran-ExtraLight.ttf); font-weight: 200; }
+@font-face{ font-family: Catamaran; src: url(/font/Catamaran/Catamaran-Light.ttf); font-weight: 300; }
+@font-face{ font-family: Catamaran; src: url(/font/Catamaran/Catamaran-Regular.ttf); font-weight: 400; }
+@font-face{ font-family: Catamaran; src: url(/font/Catamaran/Catamaran-Medium.ttf); font-weight: 500; }
+@font-face{ font-family: Catamaran; src: url(/font/Catamaran/Catamaran-SemiBold.ttf); font-weight: 600; }
+@font-face{ font-family: Catamaran; src: url(/font/Catamaran/Catamaran-Bold.ttf); font-weight: 700; }
+@font-face{ font-family: Catamaran; src: url(/font/Catamaran/Catamaran-ExtraBold.ttf); font-weight: 800; }
+@font-face{ font-family: Catamaran; src: url(/font/Catamaran/Catamaran-Black.ttf); font-weight: 900; }
+
+/* japanese font */
+@font-face{ font-family: genshingothic; src: url(/font/genshingothic/GenShinGothic-ExtraLight.ttf); font-weight: 100; }
+@font-face{ font-family: genshingothic; src: url(/font/genshingothic/GenShinGothic-Light.ttf); font-weight: 200; }
+@font-face{ font-family: genshingothic; src: url(/font/genshingothic/GenShinGothic-Medium.ttf); font-weight: 300; }
+@font-face{ font-family: genshingothic; src: url(/font/genshingothic/GenShinGothic-Bold.ttf); font-weight: 400; }
+@font-face{ font-family: genshingothic; src: url(/font/genshingothic/GenShinGothic-Heavy.ttf); font-weight: 500; }
+
+/* korea font */
+@font-face{ font-family: NotoSansCJKkr;
+    src: url(/font/NotoSansCJKkr/NotoSansCJKkr-Thin.otf) format('opentype'); font-weight:100; }
+@font-face{ font-family: NotoSansCJKkr;
+    src: url(/font/NotoSansCJKkr/NotoSansCJKkr-Light.otf) format('opentype'); font-weight:200; }
+@font-face{ font-family: NotoSansCJKkr;
+    src: url(/font/NotoSansCJKkr/NotoSansCJKkr-DemiLight.otf) format('opentype'); font-weight:300; }
+@font-face{ font-family: NotoSansCJKkr;
+    src: url(/font/NotoSansCJKkr/NotoSansCJKkr-Regular.otf) format('opentype'); font-weight:400; }
+@font-face{ font-family: NotoSansCJKkr;
+    src: url(/font/NotoSansCJKkr/NotoSansCJKkr-Medium.otf) format('opentype'); font-weight:500; }
+@font-face{ font-family: NotoSansCJKkr;
+    src: url(/font/NotoSansCJKkr/NotoSansCJKkr-Bold.otf) format('opentype'); font-weight:600; }
+@font-face{ font-family: NotoSansCJKkr;
+    src: url(/font/NotoSansCJKkr/NotoSansCJKkr-Black.otf) format('opentype'); font-weight:700; }

@@ -1,0 +1,250 @@
+
+/* publishing guide : mobile first */
+
+
+
+/* 초기화 */
+body {
+  font-family: NotoSansCJKkr,Catamaran,genshingothic,sans-serif;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: black;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: NotoSansCJKkr,Catamaran,genshingothic,sans-serif;
+  font-weight: 700;
+  margin: 0 0 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 14px;
+  /*line-height: 1.5;*/
+  margin: 0 0 25px;
+}
+
+/* text setting */
+/*.header-title{*/
+  /*font-size : 60px;*/
+  /*font-weight : 400;*/
+/*}*/
+/*.headerSub-title{*/
+  /*font-size : 30px;*/
+  /*font-weight : 200;*/
+/*}*/
+/*.content-title{*/
+  /*font-size : 36px;*/
+  /*font-weight : 700;*/
+/*}*/
+/*.contentSub-title{*/
+  /*font-size: 18px;*/
+  /*font-weight: 500;*/
+/*}*/
+/*.paragraph-title{*/
+  /*font-size: 16px;*/
+  /*font-weight: 500;*/
+/*}*/
+/*.paragraph{*/
+  /*font-size: 14px;*/
+  /*font-weight: 200;*/
+  /*color: #666666;*/
+/*}*/
+
+/* laptop */
+@media (min-width: 768px) {
+  p {
+    /*font-size: 18px;*/
+    /*line-height: 1.6;*/
+    margin: 0 0 35px;
+  }
+  .header-title{
+    font-size : 60px;
+    font-weight : 400;
+    line-height: 1;
+  }
+  .headerSub-title{
+    font-size : 30px;
+    font-weight : 200;
+  }
+  .content-title{
+    font-size : 36px;
+    font-weight : 700;
+  }
+  .contentSub-title{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .paragraph-title{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .paragraph{
+    font-size: 14px;
+    font-weight: 200;
+  }
+}
+
+a {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #42DCA3;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: #1d9b6c;
+}
+
+
+
+
+/*  ================================================== Nav */
+/* for mobile*/
+#mainNav {
+  font-family: NotoSansCJKkr,Catamaran,genshingothic,sans-serif;
+  margin-bottom: 0;
+  /*text-transform: uppercase; 대문자로 변형*/
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: #263c95;
+  font-size: 14px;
+  font-weight : 200;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 14px;
+  padding: 11px;
+  color: white;
+  border: 1px solid white;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+}
+
+#mainNav a {
+  color: white;
+}
+
+#mainNav .navbar-nav .nav-item {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+#mainNav .navbar-nav .nav-item:hover {
+  color: fade(white, 80%);
+  outline: none;
+  /*background-color: transparent;*/
+  background-color : #1a2f8e;
+  border-radius: 5px;
+}
+
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+  outline: none;
+  /*background-color: transparent;*/
+  background-color : #1a2f8e;
+}
+
+#mainNav .navbar-nav .nav-item .dropdown-menu{
+  background-color: #f1f1f1;
+  border-radius: 0px;
+}
+#mainNav .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+  font-size:14px;
+  font-weight : 300;
+  color : #666666;
+  margin-bottom : 5px;
+}
+#mainNav .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover,
+#mainNav .navbar-nav .nav-item .dropdown-menu .dropdown-item:active{
+  /*background-color: #0275d8;*/
+  /*color: #ffffff;*/
+  background-color: #ffffff;
+  color: #DD5810;
+}
+
+/* for desktop */
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    /*letter-spacing: 1px;  문자 좌우 자간 */
+    border-bottom: none;
+    background: transparent;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*border-bottom: 1px solid rgba(255, 255, 255, 0.3);*/
+    background: #263c95;
+  }
+  #mainNav .nav-link.active {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  #mainNav .nav-link.active:hover {
+    color: white;
+  }
+}
+
+/* for Laptop */
+@media (min-width: 768px) {
+
+}
+
+
+
+
+/* ==================================================Intro Header Section */
+/* for mobile */
+.masthead {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 200px 0;
+  text-align: left;
+  color: white;
+  background: url("/images/HeaderBG.jpg") no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.masthead .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.masthead span.header-title{
+  margin-bottom: 10px;
+}
+
+/* for desktop */
+@media (min-width: 992px) {
+
+}
+
+
+/* for laptop  */
+@media (min-width: 768px) {
+  .masthead {
+    height: 100%;
+    padding: 0;
+  }
+}
+
+
